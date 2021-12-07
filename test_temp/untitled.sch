@@ -104,19 +104,40 @@
 </packages>
 <symbols>
 <symbol name="E1">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="-5.08" y="-10.16" length="middle"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<pin name="P$2" x="-5.08" y="-10.16" visible="pad" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-8.89" x2="0" y2="-10.16" width="0.1524" layer="94" curve="-180"/>
 </symbol>
 <symbol name="E2">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="-5.08" y="-10.16" length="middle"/>
-<wire x1="0" y1="0" x2="0" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<pin name="P$2" x="-5.08" y="-10.16" visible="pad" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="-1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.08" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-6.35" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-8.89" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-8.89" x2="0" y2="-10.16" width="0.1524" layer="94" curve="-180"/>
 </symbol>
 <symbol name="E3">
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="-5.08" y="-15.24" length="middle"/>
-<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-5.08" y="0" visible="pad" length="middle"/>
+<pin name="P$2" x="-5.08" y="-15.24" visible="pad" length="middle"/>
+<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-1.905" x2="0" y2="-3.81" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-3.81" x2="0" y2="-5.715" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.715" x2="0" y2="-7.62" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-9.525" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-9.525" x2="0" y2="-11.43" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-11.43" x2="0" y2="-13.335" width="0.1524" layer="94" curve="-180"/>
+<wire x1="0" y1="-13.335" x2="0" y2="-15.24" width="0.1524" layer="94" curve="-180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -8747,9 +8768,9 @@ LETTER landscape</description>
 <part name="NICR1" library="logo_wire" deviceset="HOT_WIRE" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
-<part name="IC1" library="ds31126" deviceset="DS31126" device=""/>
-<part name="IC3" library="ds31126" deviceset="DS31126" device=""/>
-<part name="IC4" library="ds31126" deviceset="DS31126" device=""/>
+<part name="IC1" library="ds31126" deviceset="DS31126" device="" value="DMN3150L-7"/>
+<part name="IC3" library="ds31126" deviceset="DS31126" device="" value="DMN3150L-7"/>
+<part name="IC4" library="ds31126" deviceset="DS31126" device="" value="DMN3150L-7"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8791,16 +8812,16 @@ LETTER landscape</description>
 <attribute name="VALUE" x="100.33" y="36.83" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="G$1" x="27.94" y="33.02" smashed="yes">
-<attribute name="VALUE" x="16.51" y="33.02" size="1.778" layer="96"/>
-<attribute name="NAME" x="16.51" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.43" y="33.02" size="1.778" layer="96"/>
+<attribute name="NAME" x="11.43" y="35.56" size="1.778" layer="95"/>
 </instance>
 <instance part="IC3" gate="G$1" x="50.8" y="33.02" smashed="yes">
-<attribute name="VALUE" x="39.37" y="33.02" size="1.778" layer="96"/>
-<attribute name="NAME" x="39.37" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="34.29" y="33.02" size="1.778" layer="96"/>
+<attribute name="NAME" x="34.29" y="35.56" size="1.778" layer="95"/>
 </instance>
 <instance part="IC4" gate="G$1" x="73.66" y="33.02" smashed="yes">
-<attribute name="VALUE" x="62.23" y="33.02" size="1.778" layer="96"/>
-<attribute name="NAME" x="62.23" y="35.56" size="1.778" layer="95"/>
+<attribute name="VALUE" x="57.15" y="33.02" size="1.778" layer="96"/>
+<attribute name="NAME" x="57.15" y="35.56" size="1.778" layer="95"/>
 </instance>
 <instance part="GND1" gate="1" x="30.48" y="12.7" smashed="yes">
 <attribute name="VALUE" x="27.94" y="10.16" size="1.778" layer="96"/>
