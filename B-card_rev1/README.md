@@ -25,4 +25,4 @@ After going through half a roll of [cheap thermal stock](https://www.amazon.com/
 
 Solution: Use the `AP1509-50SG-13` to regulate an [rc battery](https://www.amazon.com/Blomiky-1500mAh-Battery-Charger-Helicopter/dp/B07DNCK7V2/) down to 5v@2A, this ic dose not state that there is over current protection, but rather **Current-Limit Protection** , so I think this might work. 
 
-This allows me to nix the battery charger on the pcb, I'm still apprehensive about only supplying the mcu with 200ma, it *should* work, but the official numbers say otherwise.
+This allows me to nix the battery charger on the pcb, I'm still apprehensive about only supplying the mcu with 200ma, it *should* work, but the official numbers say otherwise. Actually, I could just nix the 3.3v regulator since I have an uber cap to keep the system up during brownout. Or use an LDO linear reg. uber down to 3.3v@300ma from 5v.... that might be ok.
