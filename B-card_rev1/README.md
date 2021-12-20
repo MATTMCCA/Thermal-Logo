@@ -1,7 +1,3 @@
-
-
-
-
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
@@ -22,3 +18,11 @@ Something to note, during the life of the battery, as the battery becomes deplet
 A safety mechanism may be needed, the paper will act as a heat sink. If the elements are active without paper contact they may prematurely fail.
 
 And a power switch may come in handy, but the likelihood of a client actually building the device is un-probable, this is more of a show piece.
+
+# Addendum
+
+After going through half a roll of [cheap thermal stock](https://www.amazon.com/POS1-Thermal-Paper-diameter-CORELESS/dp/B0785M4982) I came to the conclusion that the 'current' design wont work. 
+
+Solution: Use the `AP1509-50SG-13` to regulate an [rc battery](https://www.amazon.com/Blomiky-1500mAh-Battery-Charger-Helicopter/dp/B07DNCK7V2/) down to 5v@2A, this ic dose not state that there is over current protection, but rather **Current-Limit Protection** , so I think this might work. 
+
+This allows me to nix the battery charger on the pcb, I'm still apprehensive about only supplying the mcu with 200ma, it *should* work, but the official numbers say otherwise.
