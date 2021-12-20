@@ -12,14 +12,22 @@ SDR0403-100MLCT-ND
 DMN2041L-7DICT-ND
 SW1216CT-ND
 
-//better reg
+
+////newer
+
 AP1509-50SGDICT-ND
+NCP115ASN330T2GOSCT-ND
+732-2994-1-ND
+641-1748-1-ND
 https://www.amazon.com/Blomiky-1500mAh-Battery-Charger-Helicopter/dp/B07DNCK7V2/
 https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-14574/8543394
 
 
 
 
+
+https://www.diodes.com/assets/Part-Support-Files/AP1509/ANP013_1509.pdf
+https://www.diodes.com/assets/Evaluation-Boards/AP1509-EVM.pdf
 
 
 https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
