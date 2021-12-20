@@ -12,6 +12,11 @@ SDR0403-100MLCT-ND
 DMN2041L-7DICT-ND
 SW1216CT-ND
 
+//better reg
+AP1509-50SGDICT-ND
+https://www.amazon.com/Blomiky-1500mAh-Battery-Charger-Helicopter/dp/B07DNCK7V2/
+https://www.digikey.com/en/products/detail/sparkfun-electronics/CAB-14574/8543394
+
 
 
 
