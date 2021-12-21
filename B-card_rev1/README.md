@@ -1,3 +1,4 @@
+
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
@@ -26,3 +27,8 @@ After going through half a roll of [cheap thermal stock](https://www.amazon.com/
 Solution: Use the `AP1509-50SG-13` to regulate an [rc battery](https://www.amazon.com/Blomiky-1500mAh-Battery-Charger-Helicopter/dp/B07DNCK7V2/) down to 5v@2A, this ic dose not state that there is over current protection, but rather **Current-Limit Protection** , so I think this might work. 
 
 This allows me to nix the battery charger on the pcb, I'm still apprehensive about only supplying the mcu with 200ma, it *should* work, but the official numbers say otherwise. Actually, I could just nix the 3.3v regulator since I have an uber cap to keep the system up during brownout. Or use an LDO linear reg. uber down to 3.3v@300ma from 5v.... that might be ok.
+
+# Addendum Part 2
+Ok so... I guess the atmega32u4 can run down to 3v with a lethargic clock, so the need for the 3.3 vreg is void. Ill just run the 8Mhz clock at 5v ~4.8v. If the reservoir cap is charged at 5v, I can operate over a 1.7v sag. Plus! I found [this](https://www.digikey.com/en/products/detail/henlv-power/WRD05S05-10W/15780166) gem, Its through hole, but fits my power requirements. The datasheets in Chinese, so I don't know if it has over current protection, or if its limited. 
+
+New game plan, nix the regulators, drop in a dc/dc power module. Now I don't have to worry about the vreg layout being perfect for maximum efficiency. I might be-able to socket the dc module so no leads stick out the bottom. If not, oh well.
