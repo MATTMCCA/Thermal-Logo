@@ -32,3 +32,9 @@ This allows me to nix the battery charger on the pcb, I'm still apprehensive abo
 Ok so... I guess the atmega32u4 can run down to 3v with a lethargic clock, so the need for the 3.3 vreg is void. Ill just run the 8Mhz clock at 5v ~4.8v. If the reservoir cap is charged at 5v, I can operate over a 1.7v sag. Plus! I found [this](https://www.digikey.com/en/products/detail/henlv-power/WRD05S05-10W/15780166) gem, Its through hole, but fits my power requirements. The datasheets in Chinese, so I don't know if it has over current protection, or if its limited. 
 
 New game plan, nix the regulators, drop in a dc/dc power module. Now I don't have to worry about the vreg layout being perfect for maximum efficiency. I might be-able to socket the dc module so no leads stick out the bottom. If not, oh well.
+
+### From [Datasheet](http://www.henlv.com.cn/kin/php/upload/20200924/1600919314377087.pdf) (wrong datasheet though)
+`Have good shielding anti‑interference performance and electromagnetic compatibility, output overcurrent,
+Overheating protection, Self‑recovery and other functions.`
+
+...so I don't know if it will drop out or limit the current, I suspect it will drop out ("*self recovery*"), that's what most do (this could be problematic).
