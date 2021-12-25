@@ -1,4 +1,5 @@
 
+
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
@@ -34,7 +35,10 @@ Ok so... I guess the atmega32u4 can run down to 3v with a lethargic clock, so th
 New game plan, nix the regulators, drop in a dc/dc power module. Now I don't have to worry about the vreg layout being perfect for maximum efficiency. I might be-able to socket the dc module so no leads stick out the bottom. If not, oh well.
 
 ### From [Datasheet](http://www.henlv.com.cn/kin/php/upload/20200924/1600919314377087.pdf) (wrong datasheet though)
-`Have good shielding anti‑interference performance and electromagnetic compatibility, output overcurrent,
-Overheating protection, Self‑recovery and other functions.`
+`Have good shielding anti-interference performance and electromagnetic compatibility, output overcurrent,
+Overheating protection, Self-recovery and other functions.`
 
 ...so I don't know if it will drop out or limit the current, I suspect it will drop out ("*self recovery*"), that's what most do (this could be problematic).
+
+# Addendum Part 3
+I blew out the nickle chromium wire riveted to my test PCB. The good news is, I was not able to measure any voltage sag on the 7.4v 600mAh battery during **spontaneous vaporization** of the wire. After more destructive testing, I do need to regulate the element voltage, and probably limit the current to a sane amount. Those batteries are WAY better than I thought they would be. I may be able to get away with a linear Vreg capped at 2A for the elements, instead of the pricey DC switching modules with possible over current dropout. 
