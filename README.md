@@ -1,7 +1,7 @@
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
-Works with Arduino IDE to allow for easy experimentation. The HW design based on a Adafruit's *itsy bitsy* so I could benefit from there bootloader.
+Works with Arduino IDE to allow for easy experimentation. The HW design is based on Adafruit's *itsy bitsy* so I could benefit from there bootloader.
 
 ## Now on Rev_2
 
