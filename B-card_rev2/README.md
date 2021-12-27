@@ -14,6 +14,7 @@ A business card that "prints" the company logo on thermal paper.
 - No safety measures in place.
 - Publishing my contact details online... not too bright... but oh well.
 - My confidence level is 65% (kinda high, its usually only 40%)
+- Oh WOW!, I should have inverted the QR code..... 
 
 ### Boards have been sent to fab, two assemblies worth of parts have been ordered.
 
