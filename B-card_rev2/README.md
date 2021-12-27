@@ -20,8 +20,12 @@ A business card that "prints" the company logo on thermal paper.
 ### amazon stuff
 
 [Battery A](https://www.amazon.com/dp/B07DNCK7V2)
+
 [Battery B](https://www.amazon.com/dp/B06ZY6J1P8)
+
 [JST-SM 2-pin](https://www.amazon.com/dp/B01EJI8TQK)
+
 [Fiberglass Tape](https://www.amazon.com/dp/B00823I7B6)
+
 [36 gauge **NiCr** Wire](https://www.amazon.com/dp/B07CHTXZYW)
 
