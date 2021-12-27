@@ -14483,8 +14483,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -14534,13 +14534,13 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
@@ -14565,9 +14565,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 E3 will hit 800*c &lt; 60ms
 E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <text x="38.1" y="50.8" size="1.778" layer="94">Due to thermal dissipation realworld temp will be &lt; aprox</text>
-<text x="172.72" y="12.7" size="1.778" layer="94">The Risk of Fire is real LOL</text>
+<text x="172.72" y="15.24" size="1.778" layer="94">The Risk of Fire is real LOL</text>
 <text x="170.18" y="160.02" size="1.778" layer="94">Dont Strobe E1+E2+E3, only one at a time.</text>
 <text x="132.08" y="53.34" size="1.778" layer="94">No ETA on battery life</text>
+<text x="165.1" y="10.16" size="1.778" layer="94">https://www.digikey.com/short/cp92bq0z</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -14629,8 +14630,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="VALUE" x="60.96" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="154.94" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.5214" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="158.242" y="153.67" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="153.4414" y="151.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="158.242" y="151.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="154.94" y="165.1" smashed="yes">
 <attribute name="VALUE" x="152.4" y="160.02" size="1.778" layer="96" rot="R90"/>
@@ -14664,8 +14665,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="VALUE" x="188.595" y="56.388" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R11" gate="G$1" x="182.88" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="186.4614" y="39.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="186.182" y="44.45" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="181.3814" y="41.91" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.182" y="41.91" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Y1" gate="G$1" x="134.62" y="83.82" smashed="yes">
 <attribute name="NAME" x="142.24" y="77.47" size="1.778" layer="95" rot="R180"/>
@@ -14685,8 +14686,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="VALUE" x="27.94" y="7.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="104.14" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="107.7214" y="16.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="102.6414" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND18" gate="1" x="104.14" y="10.16" smashed="yes">
 <attribute name="VALUE" x="101.6" y="7.62" size="1.778" layer="96"/>
@@ -14696,8 +14697,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="NAME" x="64.77" y="33.02" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="G$1" x="76.2" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="79.7814" y="16.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="79.502" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="74.7014" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="79.502" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND19" gate="1" x="76.2" y="10.16" smashed="yes">
 <attribute name="VALUE" x="73.66" y="7.62" size="1.778" layer="96"/>
@@ -14707,8 +14708,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="NAME" x="36.83" y="33.02" size="1.778" layer="95"/>
 </instance>
 <instance part="R4" gate="G$1" x="48.26" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="51.8414" y="13.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="51.562" y="21.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="46.7614" y="19.05" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="51.562" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND20" gate="1" x="48.26" y="10.16" smashed="yes">
 <attribute name="VALUE" x="45.72" y="7.62" size="1.778" layer="96"/>
@@ -14721,8 +14722,8 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <attribute name="VALUE" x="207.264" y="38.481" size="1.778" layer="96"/>
 </instance>
 <instance part="R12" gate="G$1" x="205.74" y="60.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="209.3214" y="54.61" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="209.042" y="62.23" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="204.2414" y="59.69" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="209.042" y="59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND21" gate="1" x="205.74" y="30.48" smashed="yes">
 <attribute name="VALUE" x="203.2" y="27.94" size="1.778" layer="96"/>

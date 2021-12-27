@@ -73,7 +73,7 @@
 <layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bWljcm9jb21jb3Jw" projecturn="a.YnVzaW5lc3M6bWljcm9jb21jb3JwI0QyMDIxMDYxMDQxOTQ4MzU4MQ" f3durn="urn:adsk.wipprod:dm.lineage:hVZSTlcWSTCayl2Rg-kBcg" pcbguid="38324b95-f16b-4be6-b83f-e768f8fb8096" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="6cf69bb5-ddfe-4a12-9340-ddf4eb80fb93" lastsyncedrevisionid="6cf69bb5-ddfe-4a12-9340-ddf4eb80fb93" lastboardhashguid="6470bd19-9ceb-2cb8-f10b-da75035a346b" lastpushedtime="2021-12-27T14:39:14Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bWljcm9jb21jb3Jw" projecturn="a.YnVzaW5lc3M6bWljcm9jb21jb3JwI0QyMDIxMDYxMDQxOTQ4MzU4MQ" f3durn="urn:adsk.wipprod:dm.lineage:hVZSTlcWSTCayl2Rg-kBcg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="6cf69bb5-ddfe-4a12-9340-ddf4eb80fb93" lastsyncedrevisionid="6cf69bb5-ddfe-4a12-9340-ddf4eb80fb93" lastboardhashguid="6470bd19-9ceb-2cb8-f10b-da75035a346b" lastpushedtime="2021-12-27T14:39:14Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0" y1="48.26" x2="0" y2="2.54" width="0" layer="20"/>
 <wire x1="0" y1="2.54" x2="2.54" y2="0" width="0" layer="20" curve="90"/>
@@ -91,24 +91,25 @@
 <text x="85.4075" y="46.99" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">SCK</text>
 <text x="23.1775" y="38.4175" size="3.81" layer="29" font="vector" ratio="10">Matthew
 McCardle</text>
-<text x="22.86" y="29.845" size="2.54" layer="29" font="vector" ratio="10">Support Engineer</text>
+<text x="22.86" y="30.7975" size="2.54" layer="29" font="vector" ratio="10">Support Engineer</text>
 <wire x1="23.1775" y1="36.83" x2="49.8475" y2="36.83" width="0.3048" layer="21"/>
 <wire x1="49.8475" y1="36.83" x2="54.9275" y2="31.75" width="0.3048" layer="21"/>
-<wire x1="23.1775" y1="27.94" x2="49.53" y2="27.94" width="0.3048" layer="21" style="dashdot"/>
-<text x="23.1775" y="24.4475" size="1.778" layer="29" font="vector" ratio="10">Work: 740-548-6262</text>
-<text x="24.765" y="21.9075" size="1.778" layer="29" font="vector" ratio="10">Cell: 740-975-3595</text>
-<text x="23.1775" y="33.655" size="1.6764" layer="41" font="vector" ratio="10">Microcom Corporation</text>
-<text x="23.1775" y="33.655" size="1.6764" layer="29" font="vector" ratio="10">Microcom Corporation</text>
+<wire x1="23.1775" y1="29.21" x2="49.53" y2="29.21" width="0.254" layer="21"/>
+<text x="23.495" y="26.67" size="1.778" layer="29" font="vector" ratio="10">Work: 740-548-6262</text>
+<text x="25.0825" y="24.13" size="1.778" layer="29" font="vector" ratio="10">Cell: 740-975-3595</text>
+<text x="23.1775" y="34.29" size="1.6764" layer="29" font="vector" ratio="10">Microcom Corporation</text>
 <text x="38.735" y="1.27" size="1.6764" layer="21" font="vector" ratio="10">https://github.com/MATTMCCA</text>
 <text x="21.59" y="2.2225" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Thermal Business Card</text>
 <text x="48.895" y="39.6875" size="1.27" layer="21" font="vector" ratio="15" rot="R180">2021</text>
 <text x="20.6375" y="49.8475" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Warning Hot Surface</text>
 <text x="71.4375" y="23.495" size="1.27" layer="21" font="vector" ratio="15" rot="R180">Vbat 7.4v</text>
-<text x="24.4475" y="14.2875" size="1.4224" layer="21" font="vector" ratio="15">Some Assembly Required</text>
-<wire x1="22.86" y1="17.145" x2="49.8475" y2="17.145" width="0.2032" layer="21" style="shortdash"/>
+<text x="24.4475" y="14.9225" size="1.4224" layer="21" font="vector" ratio="15">Some Assembly Required</text>
+<wire x1="22.86" y1="18.0975" x2="49.8475" y2="18.0975" width="0.254" layer="21"/>
 <text x="77.1525" y="7.3025" size="1.4224" layer="21" font="vector" ratio="15">+</text>
-<wire x1="22.86" y1="20.955" x2="49.8475" y2="20.955" width="0.2032" layer="21" style="shortdash"/>
-<text x="23.8125" y="18.7325" size="1.27" layer="21" font="vector" ratio="15">mmccardle@microcomcorp.com</text>
+<wire x1="22.86" y1="20.955" x2="49.8475" y2="20.955" width="0.254" layer="21"/>
+<text x="23.8125" y="21.9075" size="1.27" layer="21" font="vector" ratio="15">mmccardle@microcomcorp.com</text>
+<text x="25.4" y="19.05" size="1.016" layer="21" font="vector" ratio="16">https://www.microcomcorp.com</text>
+<wire x1="49.8475" y1="35.56" x2="56.1975" y2="29.21" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="ATMEGA32U4-MU" urn="urn:adsk.eagle:library:33052628">
@@ -4584,12 +4585,12 @@ Based on the following sources:
 <attribute name="POPULARITY" value="77" x="33.02" y="9.2075" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="33.02" y="9.2075" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="60.96" y="33.02" smashed="yes" rot="R180">
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="60.96" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.055" y="33.3375" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="POPULARITY" value="73" x="60.96" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="60.96" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="64.4525" y="29.5275" smashed="yes" rot="R270">
+<element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="64.4525" y="29.5275" smashed="yes" rot="R270">
 <attribute name="NAME" x="64.135" y="27.6225" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="POPULARITY" value="73" x="64.4525" y="29.5275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="64.4525" y="29.5275" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4682,17 +4683,17 @@ Based on the following sources:
 <attribute name="POPULARITY" value="73" x="7.62" y="40.005" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="7.62" y="40.005" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="70.8025" y="29.5275" smashed="yes" rot="R270">
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="70.8025" y="29.5275" smashed="yes" rot="R270">
 <attribute name="NAME" x="70.485" y="27.6225" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="POPULARITY" value="73" x="70.8025" y="29.5275" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="70.8025" y="29.5275" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="69.596" y="41.91" smashed="yes" rot="R90">
+<element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="69.596" y="41.91" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.501" y="41.91" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 <attribute name="POPULARITY" value="73" x="69.596" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="69.596" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="60.96" y="37.465" smashed="yes" rot="R180">
+<element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="60.96" y="37.465" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.055" y="37.7825" size="0.8128" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="POPULARITY" value="73" x="60.96" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="60.96" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
