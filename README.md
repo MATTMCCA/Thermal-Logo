@@ -18,3 +18,6 @@ These Business Cards are not for sale/resale. They are strictly for networking, 
 
 
 ![alt text](https://cdn.vox-cdn.com/uploads/chorus_image/image/49493993/this-is-fine.0.jpg)
+
+
+### Borrowed works maintain original license.
