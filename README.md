@@ -1,6 +1,8 @@
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
+Works with Arduino IDE to allow for easy experimentation. The HW design based on a Adafruit's *itsy bitsy* so I could benefit from there bootloader.
+
 ## Now on Rev_2
 
 These Business Cards are not for sale/resale. They are strictly for networking, and **Thermal Printer Shenanigans**. Please do-not misuse the design or business cards, any injury that occurs as a result of malintent or negligence, I am not responsible for. 
@@ -12,12 +14,6 @@ These Business Cards are not for sale/resale. They are strictly for networking, 
 .
 
 .
-
-
-### Probably a fire hazard, needs safely tested for proof of concept.... The danger makes it fun!
-
-
-![alt text](https://cdn.vox-cdn.com/uploads/chorus_image/image/49493993/this-is-fine.0.jpg)
 
 
 ### Borrowed works maintain original license.
