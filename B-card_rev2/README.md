@@ -18,7 +18,7 @@ A business card that "prints" the company logo on thermal paper.
 
 ### Boards have been sent to fab, two assemblies worth of parts have been ordered.
 
-### amazon stuff
+### Amazon Stuff
 
 [Battery A](https://www.amazon.com/dp/B07DNCK7V2)
 
@@ -29,4 +29,11 @@ A business card that "prints" the company logo on thermal paper.
 [Fiberglass Tape](https://www.amazon.com/dp/B00823I7B6)
 
 [36 gauge **NiCr** Wire](https://www.amazon.com/dp/B07CHTXZYW)
+
+### Other
+
+[0.4mmm Vias](https://www.voltera.io/store/consumables/rivets-0-4mm)
+
+[Via Set Tool](https://www.voltera.io/store/consumables/rivet-tool)
+
 
