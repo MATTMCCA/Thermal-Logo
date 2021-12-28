@@ -1,6 +1,7 @@
 
 
 
+
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
@@ -35,5 +36,8 @@ A business card that "prints" the company logo on thermal paper.
 [0.4mmm Vias](https://www.voltera.io/store/consumables/rivets-0-4mm)
 
 [Via Set Tool](https://www.voltera.io/store/consumables/rivet-tool)
+
+#### Notes:
+You cant really solder **NiCr**, its nickle and chrome, that chemistry would respond better to 'welding'. Since I don't have a tiny spot welder... yet.... I opted for permanent mechanical fasteners. Is this perfect? NO, dose it work? YES!
 
 
