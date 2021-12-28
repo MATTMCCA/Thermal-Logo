@@ -7,7 +7,7 @@ Works with Arduino IDE to allow for easy experimentation. The HW design is based
 
 These Business Cards are not for sale/resale. They are strictly for networking, and **Thermal Printer Shenanigans**. Please do-not misuse the design or business cards, any injury that occurs as a result of malintent or negligence, I am not responsible for. 
 
-#### This device will got hot enough to activate thermal paper, please, *business responsibly*. 
+#### This device will get hot enough to activate thermal paper, please, *business responsibly*. 
 
 
 ![img](https://github.com/MATTMCCA/Thermal-Logo/blob/main/B-card_rev2/img/rev_002_v8.png?raw=true)
