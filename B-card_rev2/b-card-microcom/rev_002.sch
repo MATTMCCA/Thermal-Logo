@@ -15021,14 +15021,14 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <wire x1="243.84" y1="152.4" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USBB_N" class="0">
+<net name="USBB_P" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="73.66" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="USBB_P" class="0">
+<net name="USBB_N" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="D-"/>
 <pinref part="R5" gate="G$1" pin="2"/>
@@ -15332,9 +15332,9 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <label x="231.14" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<label x="53.34" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
+<label x="53.34" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USBA_N" class="0">
@@ -15344,9 +15344,9 @@ E1&amp;E2 will hit 1000*c &lt; 60ms</text>
 <label x="231.14" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="154.94" x2="53.34" y2="154.94" width="0.1524" layer="91"/>
-<label x="53.34" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
+<label x="53.34" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D6" class="0">

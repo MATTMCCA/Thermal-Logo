@@ -1,22 +1,18 @@
-
-
-
-
 # Thermal Logo Business Card
 A business card that "prints" the company logo on thermal paper.
 
 
 # Possible Issues with the Design
-- Load resistors might need to be smaller to increase current draw.
+- Load resistors might need to be smaller to increase current draw. [piggyback 11's on the vreg channels to get 1.88A, or x2 2.27A, x3 2.72A (*for testing*)]
 - IDK if the bootloader I plan on using is compatible with the MCU I nabbed from digikey, I think it will but there is a chance it wont.
 - The high current part of the PCB might get a wee bit warm.
 - IDK about the switch I picked.
 - Still no power switch
 - No safety measures in place.
 - Publishing my contact details online... not too bright... but oh well.
-- My confidence level is 65% (kinda high, its usually only 40%)
-- **OH WOW!, I should have inverted the QR code.....** [fixed on pcb] 
-- **OH WOW!, the usb is wired wrong, so... that stinks...** (I'll just nix the resistors and rewire to test)
+- My confidence level is 65% (kinda high, its usually only 40%) [Lower Now... 40%, I got cocky]
+- **OH WOW!, I should have inverted the QR code.....** [fixed on PCB] 
+- **OH WOW!, the usb is wired wrong, so... that stinks...** (I'll just nix the resistors and rewire to test) [fixed on PCB]
 
 ### Boards have been sent to fab, two assemblies worth of parts have been ordered.
 
