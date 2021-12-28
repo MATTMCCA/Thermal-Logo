@@ -10,7 +10,7 @@ These Business Cards are not for sale/resale. They are strictly for networking, 
 #### This device will got hot enough to activate thermal paper, please, *business responsibly*. 
 
 
-![img](https://github.com/MATTMCCA/Thermal-Logo/blob/main/img/rev_002_v8.png?raw=true)
+![img](https://github.com/MATTMCCA/Thermal-Logo/main/B-card_rev2/img/rev_002_v8.png?raw=true)
 
 
 
