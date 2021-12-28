@@ -15,7 +15,8 @@ A business card that "prints" the company logo on thermal paper.
 - No safety measures in place.
 - Publishing my contact details online... not too bright... but oh well.
 - My confidence level is 65% (kinda high, its usually only 40%)
-- Oh WOW!, I should have inverted the QR code..... 
+- **OH WOW!, I should have inverted the QR code.....** [fixed on pcb] 
+- **OH WOW!, the usb is wired wrong, so... that stinks...** (I'll just nix the resistors and rewire to test)
 
 ### Boards have been sent to fab, two assemblies worth of parts have been ordered.
 
