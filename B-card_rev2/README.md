@@ -16,6 +16,8 @@ A business card that "prints" the company logo on thermal paper.
 
 ### Boards have been sent to fab, two assemblies worth of parts have been ordered.
 
+Parts Came [12/29/2021], just wating on boards.
+
 ### Amazon Stuff
 
 [Battery A](https://www.amazon.com/dp/B07DNCK7V2)
