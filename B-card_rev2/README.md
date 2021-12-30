@@ -39,4 +39,4 @@ Parts Came [12/29/2021], just wating on boards.
 #### Notes:
 You cant really solder **NiCr**, its nickle and chrome, that chemistry would respond better to 'welding'. Since I don't have a tiny spot welder... yet.... I opted for permanent mechanical fasteners. Is this perfect? NO, dose it work? YES!
 
-
+[Hmmm...](https://www.amazon.com/dp/B093SMWQ2Q) Amazon sells spot welders, might have to get one...
