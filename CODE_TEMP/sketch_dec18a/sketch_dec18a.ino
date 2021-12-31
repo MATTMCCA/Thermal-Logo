@@ -81,10 +81,10 @@ void loop() {
     digitalWrite(EN_1, SEQ[i][0] & THERM[0]); //E1
     digitalWrite(EN_2, SEQ[i][1] & THERM[1]); //E2
     digitalWrite(EN_3, SEQ[i][2] & THERM[2]); //E3
+    delay(ms_delay);
   }
   
-  cnt++;
-  delay(ms_delay);
+  cnt++;  
 }
 
 void button_check(void) {
