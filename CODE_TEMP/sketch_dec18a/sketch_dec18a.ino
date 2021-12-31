@@ -1,6 +1,13 @@
 /*
-   Thermal Logo Code for Board REV_2 (Adafruit Itsy Bitsy 3v 8Mhz)
+   Thermal Logo Business Card, Board REV_2 (Adafruit Itsy Bitsy 3v 8Mhz)
    MJM - 2021
+   
+   Warning! Hardware Will Get HOT!!
+   
+   but      
+      (•_•)     
+           ( •_•)>⌐■-■   
+                        (⌐■_■)  the firmware should stay kool.        
 */
 
 #define HOT    1
