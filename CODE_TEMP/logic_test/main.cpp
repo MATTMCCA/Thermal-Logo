@@ -39,11 +39,10 @@ int main()
     while(cnt < cell_cnt)
     {
       state_seq();
-
       for (int i = 0; i < 3; i++) {
         if (SEQ[i][i] == COLD) {
           THERM_CNT[i] = 0;
-          THERM[i] == HEAT;
+          THERM[i] = HEAT;
         }
       }
 
@@ -58,13 +57,6 @@ int main()
       E1[cnt] = SEQ[0][0] & THERM[0];
       E2[cnt] = SEQ[1][1] & THERM[1];
       E3[cnt] = SEQ[2][2] & THERM[2];
-      /*
-      for (i = 0; i < 3; i++) {
-        printf("E1: %d\n", SEQ[i][0] & THERM[0]); //E1
-        printf("E2: %d\n", SEQ[i][1] & THERM[1]); //E2
-        printf("E3: %d\n", SEQ[i][2] & THERM[2]); //E3
-      }
-      */
       cnt++;
     }
 

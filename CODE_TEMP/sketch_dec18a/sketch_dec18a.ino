@@ -66,7 +66,7 @@ void loop() {
   for (int i = 0; i < 3; i++)
     if (SEQ[i][i] == COLD) {
       THERM_CNT[i] = 0;
-      THERM[i] == HEAT;
+      THERM[i] = HEAT;
     }
 
   for (i = 0; i < 3; i++) {
