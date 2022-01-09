@@ -1,13 +1,13 @@
 /*
    Thermal Logo Business Card, Board REV_2 (Adafruit Itsy Bitsy 3v 8Mhz)
    MJM - 2021
-   
+
    Warning! Hardware Will Get HOT!!
-   
-   but      
-      (•_•)     
-           ( •_•)>⌐■-■   
-                        (⌐■_■)  the firmware should stay kool.        
+
+   but
+      (•_•)
+           ( •_•)>⌐■-■
+                              (⌐■_■)  the firmware should stay kool.
 */
 
 #define HOT    1
@@ -17,19 +17,17 @@
 #define COOL 0
 #define HEAT 1
 
-#define E2_OFFSET 5                         /* tune wire offset */
+#define E2_OFFSET 4                         /* tune wire offset */
 
-const int micro_pixle = 20;                 /* 20 upix per pix */
-const int ms_delay    = 10;                 /* 10ms per E */
-const int u_thold     = 10;                 /* heat limit, start to cool */
-const int l_thold     = 5;                  /* cool, start to heat */
+const int micro_pixle = 10;                 /* 20 upix per pix */
+const int ms_delay    = 50;                 /* 10ms per E */
 
 /* logo, replaces logic */
-const int bmp_size  = 10;
+const int bmp_size  = 11;
 const int bmp[3][bmp_size] = {
-  {0, 1, 1, 1, 1, 0, 1, 1, 1, 1},
-  {0, 1, 0, 0, 0, 1, 0, 0, 0, 1},
-  {0, 1, 0, 1, 0, 1, 0, 1, 0, 1}
+  {0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0},
+  {0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0},
+  {0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0}
 };
 
 /* IO deff */
@@ -38,13 +36,12 @@ const int EN_1    = 6;
 const int EN_2    = 8;
 const int EN_3    = 9;
 
-int THERM_CNT[3]   = {      0,    0,    0};
-int THERM[3]       = {   HEAT, HEAT, HEAT};
-
-int SEQ[3][3]      = {
+int SEQ[5][3]      = {
   // E1,   E2,   E3
-  {COLD, COLD, COLD}, //state 1, E1
+  {COLD, COLD, COLD}, //state 3, E3
   {COLD, COLD, COLD}, //state 2, E2
+  {COLD, COLD, COLD}, //state 3, E3
+  {COLD, COLD, COLD}, //state 1, E1
   {COLD, COLD, COLD}  //state 3, E3
 };
 
@@ -71,23 +68,10 @@ void loop() {
   button_check();
   state_seq();
 
-  for (i = 0; i < 3; i++) {
-    if (SEQ[i][i] == COLD) {
-      THERM_CNT[i] = 0;
-      THERM[i] = HEAT;
-    } else {
-      if ((THERM_CNT[i] >= u_thold) && (THERM[i] == HEAT)) THERM[i] = COOL;
-      if ((THERM_CNT[i] <= l_thold) && (THERM[i] == COOL)) THERM[i] = HEAT;
-      if (THERM[i] == HEAT)                                THERM_CNT[i]++;
-      else                                                 THERM_CNT[i]--;
-    }
-  }
-
-  /* may need to add the 4th state back */
-  for (i = 0; i < 3; i++) {
-    digitalWrite(EN_1, SEQ[i][0] & THERM[0]); /* E1 */
-    digitalWrite(EN_2, SEQ[i][1] & THERM[1]); /* E2 */
-    digitalWrite(EN_3, SEQ[i][2] & THERM[2]); /* E3 */
+  for (i = 0; i < 5; i++) {
+    digitalWrite(EN_1, SEQ[i][0]); /* E1 */
+    digitalWrite(EN_2, SEQ[i][1]); /* E2 */
+    digitalWrite(EN_3, SEQ[i][2]); /* E3 */
     delay(ms_delay);
   }
   cnt++;
@@ -99,20 +83,19 @@ void button_check(void) {
     digitalWrite(EN_3, COLD);
     digitalWrite(EN_2, COLD);
     digitalWrite(EN_1, COLD);
-    cnt = THERM_CNT[0] = THERM_CNT[1] = THERM_CNT[2] = 0;
-    THERM[0] = THERM[1] = THERM[2] = HEAT;
+    cnt = 0;
     delay(100); //poll button every ~100ms
   }
 }
 
 void state_seq(void) {
-  e  = ((cnt)             / micro_pixle) % bmp_size; //mod prevent out of bounds indexing
-  e2 = ((cnt + E2_OFFSET) / micro_pixle) % bmp_size; //mod prevent out of bounds indexing
-  SEQ[0][0] = SEQ[1][1] = SEQ[2][2] = COLD;
+  e  = ((cnt)             / micro_pixle) % bmp_size; //mod, prevents out of bounds indexing
+  e2 = ((cnt + E2_OFFSET) / micro_pixle) % bmp_size; //mod, prevents out of bounds indexing
+  SEQ[3][0] = SEQ[1][1] = SEQ[0][2] = SEQ[2][2] = SEQ[4][2] = COLD;
   /* E1 *************************************************/
-  if (bmp[0][e]  == 1)  SEQ[0][0] = HOT;
+  if (bmp[0][e]  == 1)  SEQ[3][0] = HOT;
   /* E2 *************************************************/
   if (bmp[1][e2] == 1)  SEQ[1][1] = HOT;
   /* E3 *************************************************/
-  if (bmp[2][e]  == 1)  SEQ[2][2] = HOT;
+  if (bmp[2][e]  == 1)  SEQ[0][2] = SEQ[2][2] = SEQ[4][2] = HOT;
 }

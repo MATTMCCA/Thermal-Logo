@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cstring>
 
 #define HOT    1
 #define COLD   0
@@ -37,7 +38,12 @@ void state_seq(void);
 
 int main()
 {
-    printf("LOGO-TEST!\n");
+    printf("LOGO-TEST!: size of %d\n", sizeof(SEQ));
+    //return 1;
+
+
+
+
     int upix_cnt = micro_pixle * bmp_size;
     int E1[upix_cnt] = {0x00};
     int E2[upix_cnt] = {0x00};
